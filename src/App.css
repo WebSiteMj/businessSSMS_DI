@@ -1,5 +1,11 @@
+/* .App {
+  text-align: center;
+} */
+
 .App {
   text-align: center;
+  background-color: #d63030; /* light grey */
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -13,7 +19,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,8 +28,19 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
+/* Override header background */
+.App-header {
+  background-color: #c6d7e7; /* grey */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black; /* change text color if needed */
+}
 .App-link {
   color: #61dafb;
 }

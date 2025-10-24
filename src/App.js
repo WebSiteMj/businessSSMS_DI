@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        "Innovating Systems, Inspiring Minds."<code>src/App.js</code> and save to reload.
+        "Innovating Systems, Inspiring Minds."
+        {/* "Innovating Systems, Inspiring Minds."<code>src/App.js</code> and save to reload. */}
         </p>
       
          I’m excited to share the journey of SSMS_DI, where we turn ideas into scalable solutions and nurture the next generation of IT professionals.
